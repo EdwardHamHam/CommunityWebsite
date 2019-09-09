@@ -1,9 +1,13 @@
-<<<<<<< HEAD
 html{
     background-image: radial-gradient(purple, green);
 }
+<<<<<<< HEAD
 =======
 #MainTitle{
+=======
+h1{
+>>>>>>> bc40fdc5729962e4caeb8016d73558c0e414af18
     font-family: 'Times New Roman', Times, serif;
->>>>>>> c71d4486545994d4ec07f506961f723778499d80
+    font-size: 50px;
+    color: rosybrown;
 }
