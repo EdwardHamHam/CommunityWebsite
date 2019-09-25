@@ -42,9 +42,12 @@
     <!-- some reviews
 name phone email to subscribe to them-->
     <form>
-        <label>Name</lable><input type="text" name="email" id="name">
+        <label>Name</lable><input type="text" name="name" id="name">
+            <div style="display:inline-block" id="nameError"></div>
         <label>Phone Number</label><input type="text" name="phone" id="phone">
-        <label>Email</label><input type="text" name="Emial" id="email">
+        <div style="display:inline-block" id="phoneError"></div>
+        <label>Email</label><input type="text" name="Email" id="email">
+        <div style="display:inline-block" id="emailErr"></div>
         <input type="submit">
     </form>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
